@@ -1,0 +1,21 @@
+FROM todo-base
+
+#copy listTodo.py, used to call servers and get todo lists
+COPY py_src/listTodo.py /usr/local/bin/listTodo.py
+
+#add scripts to ease use of todo.py
+COPY scripts/list_todo.sh /usr/local/bin/list_todo.sh
+COPY scripts/list_todo_std.sh /usr/local/bin/list_todo_std.sh
+COPY scripts/help_gestionnaire.sh /usr/local/bin/help_gestionnaire.sh
+
+
+#Add symbolic links to scripts
+RUN ln -s /usr/local/bin/list_todo.sh /usr/local/bin/liste
+RUN ln -s /usr/local/bin/list_todo_std.sh /usr/local/bin/liste_std
+RUN ln -s /usr/local/bin/help_gestionnaire.sh /usr/local/bin/aide
+
+EXPOSE 22
+
+ENTRYPOINT ["sh", "-c", "rc-status; touch /run/openrc/softlevel; rc-service sshd start; sh"]
+
+#CMD ["/bin/sh"]

@@ -1,0 +1,22 @@
+FROM todo-base
+
+#copy callTodo.py, used to call server and add/remove todo entry
+COPY py_src/callTodo.py /usr/local/bin/callTodo.py
+
+#add scripts to ease use of callTodo.py
+COPY scripts/help_client.sh /usr/local/bin/help_client.sh
+COPY scripts/call_todo.sh /usr/local/bin/call_todo.sh
+COPY scripts/call_todo_std.sh /usr/local/bin/call_todo_std.sh
+
+RUN chmod +x /usr/local/bin/*.sh
+
+#Add symbolic links to scripts
+RUN ln -s /usr/local/bin/help_client.sh /usr/local/bin/aide
+RUN ln -s /usr/local/bin/call_todo.sh /usr/local/bin/call
+RUN ln -s /usr/local/bin/call_todo_std.sh /usr/local/bin/call_std
+
+EXPOSE 22
+
+ENTRYPOINT ["sh", "-c", "rc-status; touch /run/openrc/softlevel; rc-service sshd start; call_std -i; sh"]
+
+#CMD ["/bin/sh"]

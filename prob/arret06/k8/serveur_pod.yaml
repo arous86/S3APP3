@@ -1,0 +1,64 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: s1
+spec:
+  selector:
+    name: a6-serveur
+  ports:
+  - name: ssh-port
+    protocol: TCP
+    port: 22
+    targetPort: ssh-connect
+---
+
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: a6-serveur
+  labels:
+    app: todo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: todo
+  template:
+    metadata:
+      labels:
+        app: todo
+        name: a6-serveur
+    spec:
+      containers:
+        - name: s1
+          image: a6-serveur
+          imagePullPolicy: Never
+          tty: true
+          ports:
+            - name: ssh-connect
+              containerPort: 22
+          env:
+            - name: MONSERVEUR
+              value: s1
+          volumeMounts:
+            - name: config
+              mountPath: "/tmp/conf"
+              readOnly: true
+            - name: creds
+              mountPath: "/tmp/creds"
+              readOnly: true
+
+      volumes:
+        - name: creds
+          secret:
+            secretName: db-secrets
+            optional: false
+            items:
+            - key: "db-creds"
+              path: "creds.properties"
+        - name: config
+          configMap:
+            name: server-config-env
+            items:
+            - key: "configs.conf"
+              path: "config.properties"

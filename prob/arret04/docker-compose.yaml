@@ -1,0 +1,34 @@
+version: '3.2'
+
+# Définition des services docker
+services:
+    # Ces services comprennent un serveur todo, trois clients, et un superviseur qui observe les tâches
+    c1:
+      # Premier client - Ajoute et retire des tâches automatiquement
+      container_name: arret04-c1
+      image: arret04-client
+      tty: true
+
+    c2:
+      tty: true
+
+    c3:
+      tty: true
+      
+    s1:
+      # Serveur unique - Traite les demandes todo
+      container_name: arret04-s1
+      image: arret04-serveur
+      tty: true
+      volumes:
+        - "./tmp_todo1:/todo"
+     
+    gestionnaire:
+      # Permet d'observer les tâches en cours
+      container_name: arret04-gestionnaire
+      image: arret04-gestionnaire
+      tty: true
+
+# Réseau par défaut
+networks:
+  arret04-todo-net:

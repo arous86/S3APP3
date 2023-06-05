@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: a6-gestionnaire
+  labels:
+    app: todo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: todo
+  template:
+    metadata:
+      labels:
+        app: todo
+    spec:
+      containers:
+        - name: gest
+          image: a6-gestionnaire
+          tty: true 
+          imagePullPolicy: Never 
+          env:
+          - name: MONSERVEUR
+            value: 's1'  # Must match the service name in the server yaml

@@ -1,0 +1,42 @@
+version: '3.2'
+
+# Définition des services docker
+services:
+    # Ces services comprennent trois serveurs todo, trois clients, et un superviseur qui observe les tâches
+    c1:
+      # Premier client - Ajoute et retire des tâches automatiquement
+      container_name: arret03-c1
+      image: arret03-client
+      tty: true
+
+    c2:
+      tty: true
+
+    c3:
+      tty: true
+      
+    s1:
+      # Premier serveur - Traite les demandes todo
+      container_name: arret03-s1
+      image: arret03-serveur
+      tty: true
+      volumes:
+        - "./tmp_todo1:/todo"
+
+    s2:
+      tty: true
+
+    s3:
+      tty: true
+
+    gestionnaire:
+      container_name: arret03-gestionnaire
+      image: arret03-gestionnaire
+      tty: true
+      environment:
+        - MONSERVEUR='s1,s2,s3'
+        - MONNOM='c1,c2,c3'
+
+# Réseau par défaut
+networks:
+  arret03-todo-net:

@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: db-secrets
+type: Opaque
+data:
+  POSTGRES_USER: Z2lmMzkwLXVuYW1l
+  POSTGRES_PASSWORD: Z2lmMzkwLXNlY3JldC1wYXNzd29yZA==
+  POSTGRES_DB: cG9zdGdyZXM=
+  db-creds: W2NyZWRzXQp1bmFtZT1naWYzOTAtdW5hbWUKcHdkPWdpZjM5MC1zZWNyZXQtcGFzc3dvcmQ=
+---
+
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: server-config-env
+data:
+  configs.conf: |
+    [DB]
+    hostname=db-connect 
+    db-port=5432
+    database=postgres
+---

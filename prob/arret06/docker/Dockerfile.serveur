@@ -1,0 +1,27 @@
+FROM todo-base
+
+#create /todo directory to hold todo data
+RUN mkdir /todo
+
+#copy todo.py
+COPY py_src/todo.py /usr/local/bin/todo.py
+
+#add scripts to ease use of todo.py
+COPY scripts/list_todo_serveur.sh /usr/local/bin/list_todo_serveur.sh
+COPY scripts/add_todo.sh /usr/local/bin/add_todo.sh
+COPY scripts/remove_todo.sh /usr/local/bin/remove_todo.sh
+COPY scripts/help.sh /usr/local/bin/help.sh
+COPY scripts/todo.sh /usr/local/bin/todo.sh
+
+#Add symbolic links to scripts
+RUN ln -s /usr/local/bin/list_todo_serveur.sh /usr/local/bin/liste
+RUN ln -s /usr/local/bin/remove_todo.sh /usr/local/bin/retrait
+RUN ln -s /usr/local/bin/add_todo.sh /usr/local/bin/nouveau
+RUN ln -s /usr/local/bin/help.sh /usr/local/bin/aide
+RUN ln -s /usr/local/bin/todo.sh /usr/local/bin/todo
+
+EXPOSE 22
+
+ENTRYPOINT ["sh", "-c", "rc-status; touch /run/openrc/softlevel; rc-service sshd start; sh"]
+
+#CMD ["/bin/sh"]

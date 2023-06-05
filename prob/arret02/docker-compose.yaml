@@ -1,0 +1,53 @@
+version: '3.2'
+
+# Définition des services docker
+services:
+    # Ces services comprennent un serveur todo, un client, et un superviseur qui observe les tâches
+    c1:
+ 
+      # CORRECTIF ON BUILD L'IMAGE
+      build:
+        context: .
+        dockerfile: Dockerfile.client
+      
+
+      # Client - Ajoute et retire des tâches automatiquement
+      container_name: arret02-c1
+      image: arret02-client
+      tty: true
+      
+    s1:
+
+      # CORRECTIF ON BUILD L'IMAGE
+      build:
+        context: .
+        dockerfile: Dockerfile.serveur
+      
+
+      # Serveur - Traite les demandes todo
+      container_name: arret02-s1
+      image: arret02-serveur
+      tty: true
+      volumes:
+        - "./tmp_todo1:/todo"
+
+    gestionnaire:
+
+
+      # CORRECTIF ON BUILD L'IMAGE
+      build:
+        context: .
+        dockerfile: Dockerfile.gestionnaire
+      
+
+      # Permet d'observer les tâches en cours
+      container_name: arret02-gestionnaire
+      image: arret02-gestionnaire
+      tty: true
+      environment:
+        - MONSERVEUR='s1'
+        - MONNOM='c1'
+
+# Réseau par défaut
+networks:
+  arret02-todo-net:
