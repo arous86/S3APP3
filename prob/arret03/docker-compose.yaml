@@ -4,32 +4,79 @@ version: '3.2'
 services:
     # Ces services comprennent trois serveurs todo, trois clients, et un superviseur qui observe les tâches
     c1:
+      # CORRECTIF ON BUILD L'IMAGE
+      build:
+        context: .
+        dockerfile: Dockerfile.client
+
       # Premier client - Ajoute et retire des tâches automatiquement
       container_name: arret03-c1
-      image: arret03-client
+      image: arret03-client-1
       tty: true
 
     c2:
+      # CORRECTIF ON BUILD L'IMAGE
+      build:
+        context: .
+        dockerfile: Dockerfile.client
+
+      container_name: arret03-c2
+      image: arret03-client-2
       tty: true
 
     c3:
+      # CORRECTIF ON BUILD L'IMAGE
+      build:
+        context: .
+        dockerfile: Dockerfile.client
+
+      container_name: arret03-c3
+      image: arret03-client-3
       tty: true
       
     s1:
+      # CORRECTIF ON BUILD L'IMAGE
+      build:
+        context: .
+        dockerfile: Dockerfile.serveur
+
       # Premier serveur - Traite les demandes todo
       container_name: arret03-s1
-      image: arret03-serveur
+      image: arret03-serveur-1
       tty: true
       volumes:
         - "./tmp_todo1:/todo"
 
     s2:
+      # CORRECTIF ON BUILD L'IMAGE
+      build:
+        context: .
+        dockerfile: Dockerfile.serveur
+
+      container_name: arret03-s2
+      image: arret03-serveur-2
       tty: true
+      volumes:
+        - "./tmp_todo2:/todo"
 
     s3:
+      # CORRECTIF ON BUILD L'IMAGE
+      build:
+        context: .
+        dockerfile: Dockerfile.serveur
+
+      container_name: arret03-s3
+      image: arret03-serveur-3
       tty: true
+      volumes:
+        - "./tmp_todo3:/todo"
 
     gestionnaire:
+      # CORRECTIF ON BUILD L'IMAGE
+      build:
+        context: .
+        dockerfile: Dockerfile.gestionnaire
+
       container_name: arret03-gestionnaire
       image: arret03-gestionnaire
       tty: true
