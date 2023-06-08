@@ -14,6 +14,16 @@ services:
       image: arret03-client-1
       tty: true
 
+      # CORRECTIF Connection au Network:
+      networks:
+        - arret03-todo-net
+
+      # CORRECTIF Variables globales nécessaires
+      environment:
+        - MONSERVEUR='s1'
+        - MONNOM='c1'
+
+
     c2:
       # CORRECTIF ON BUILD L'IMAGE
       build:
@@ -23,6 +33,16 @@ services:
       container_name: arret03-c2
       image: arret03-client-2
       tty: true
+
+      # CORRECTIF Connection au Network:
+      networks:
+        - arret03-todo-net
+
+      # CORRECTIF Variables globales nécessaires
+      environment:
+        - MONSERVEUR='s2'
+        - MONNOM='c2'
+
 
     c3:
       # CORRECTIF ON BUILD L'IMAGE
@@ -34,6 +54,16 @@ services:
       image: arret03-client-3
       tty: true
       
+      # CORRECTIF Connection au Network:
+      networks:
+        - arret03-todo-net
+
+      # CORRECTIF Variables globales nécessaires
+      environment:
+        - MONSERVEUR='s3'
+        - MONNOM='c3'
+
+
     s1:
       # CORRECTIF ON BUILD L'IMAGE
       build:
@@ -47,6 +77,10 @@ services:
       volumes:
         - "./tmp_todo1:/todo"
 
+      # CORRECTIF Connection au Network:
+      networks:
+        - arret03-todo-net
+      
     s2:
       # CORRECTIF ON BUILD L'IMAGE
       build:
@@ -58,6 +92,10 @@ services:
       tty: true
       volumes:
         - "./tmp_todo2:/todo"
+
+      # CORRECTIF Connection au Network:
+      networks:
+        - arret03-todo-net
 
     s3:
       # CORRECTIF ON BUILD L'IMAGE
@@ -71,6 +109,10 @@ services:
       volumes:
         - "./tmp_todo3:/todo"
 
+      # CORRECTIF Connection au Network:
+      networks:
+        - arret03-todo-net
+
     gestionnaire:
       # CORRECTIF ON BUILD L'IMAGE
       build:
@@ -83,6 +125,10 @@ services:
       environment:
         - MONSERVEUR='s1,s2,s3'
         - MONNOM='c1,c2,c3'
+
+      # CORRECTIF Connection au Network:
+      networks:
+        - arret03-todo-net
 
 # Réseau par défaut
 networks:
