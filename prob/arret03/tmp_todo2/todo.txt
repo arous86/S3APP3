@@ -1,4 +1,16 @@
-TODO<56> : [c2], (2023-06-08:16:21:28) : There is no such thing as a context-free message.
-TODO<57> : [c2], (2023-06-08:16:21:38) : If God is perfect, why did he create discontinuous functions?
-TODO<58> : [c2], (2023-06-08:16:22:09) : There is one good wife in the country, and every man thinks he has her.
-TODO<59> : [c2], (2023-06-08:16:22:40) : The Tao that is seen is not the true Tao, until you bring fresh toner.
+TODO<127> : [c2], (2023-06-08:18:35:05) : People with dogs are cowards who haven't got the guts to bite people themselves.
+TODO<128> : [c2], (2023-06-08:18:35:15) : Someday they'll collect our skulls and refer to us as "early man".
+TODO<129> : [c2], (2023-06-08:18:35:46) : We are the sum of all the lives we once lived.
+TODO<130> : [c2], (2023-06-08:18:35:56) : Better a lean peace than a fat victory. — Sanford
+TODO<131> : [c2], (2023-06-08:18:36:17) : Two wrongs don't make a right.
+TODO<132> : [c2], (2023-06-08:18:36:27) : Man is the measure of all things. — Protagoras
+TODO<133> : [c2], (2023-06-08:18:36:58) : Ruling a big country is like cooking a small fish. — Lao Tsu
+TODO<134> : [c2], (2023-06-08:18:37:08) : Toe: A part of the foot used to find furniture in the dark. — Rilla May
+TODO<135> : [c2], (2023-06-08:18:37:29) : Searching for the invisible is not for the faint of heart. — Stephen Hawking
+TODO<136> : [c2], (2023-06-08:18:37:50) : Practice random acts of kindness and senseless acts of beauty.
+TODO<137> : [c2], (2023-06-08:18:38:21) : Old doctors never die; they just lose their patience.
+TODO<138> : [c2], (2023-06-08:18:38:31) : The majority of the stupid is invincible and guaranteed for all time. — Albert Einstein
+TODO<139> : [c2], (2023-06-08:18:38:51) : Disco is to music what Etch-A-Sketch is to art.
+TODO<140> : [c2], (2023-06-08:18:39:12) : It is better to die on your feet than to live on your knees.
+TODO<141> : [c2], (2023-06-08:18:39:43) : It is not enough to be a strong player, one must also play well. — Tarrasch
+TODO<142> : [c2], (2023-06-08:18:40:04) : Science and conscience belong together. — Gerhard Uhlenbruck

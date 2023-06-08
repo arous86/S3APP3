@@ -1,0 +1,79 @@
+TODO<417> : [c3], (2023-06-08:18:56:04) : He who knows, does not speak. He who speaks, does not know. — Lao Tsu
+TODO<418> : [c2], (2023-06-08:18:56:06) : There are many excuses for being late, but there are none for being early.
+TODO<419> : [c3], (2023-06-08:18:56:15) : Hummingbirds never remember the words to songs.
+TODO<420> : [c1], (2023-06-08:18:56:27) : In the deepest water is the best fishing. — Thomas Draxe
+TODO<421> : [c3], (2023-06-08:18:56:35) : All I want is a little more than I'll ever get.
+TODO<422> : [c2], (2023-06-08:18:56:37) : A mind that is stretched by an idea will never return to its original size.
+TODO<423> : [c1], (2023-06-08:18:56:37) : The scriptures are books that offer instruction on the management of power.
+TODO<424> : [c3], (2023-06-08:18:56:46) : If I could offer you only one tip for the future, sunscreen would be it.
+TODO<425> : [c2], (2023-06-08:18:57:08) : Those who can't write, write help files.
+TODO<426> : [c1], (2023-06-08:18:57:08) : Research is something that tells you that a jackass has two ears. — Lasker
+TODO<427> : [c3], (2023-06-08:18:57:16) : We are known by the company we keep.
+TODO<428> : [c2], (2023-06-08:18:57:18) : Real programs don't eat cache.
+TODO<429> : [c1], (2023-06-08:18:57:18) : Behaviorism is the art of pulling habits out of rats. — O'Neill
+TODO<430> : [c3], (2023-06-08:18:57:37) : Many are cold, but few are frozen.
+TODO<431> : [c1], (2023-06-08:18:57:39) : I bid you all a very heartfelt goodnight. — Johnny Carson, last Tonight show
+TODO<432> : [c3], (2023-06-08:18:57:47) : Pauca sed matura. (Few but excellent.) — Gauss
+TODO<433> : [c2], (2023-06-08:18:57:49) : Everyone stopping by with unsought advice will see your mistake.
+TODO<434> : [c3], (2023-06-08:18:58:08) : We don't get perspective on what's close to us until we spend time away from it. — Mark Manson
+TODO<435> : [c2], (2023-06-08:18:58:09) : This sentance has threee errors.
+TODO<436> : [c1], (2023-06-08:18:58:10) : No sooner said than done — so acts your man of worth. — Quintus Ennius
+TODO<437> : [c1], (2023-06-08:18:58:20) : You use dualism to go beyond dualism. — Ram Dass
+TODO<438> : [c3], (2023-06-08:18:58:29) : For things to stay the same, many things must change.
+TODO<439> : [c2], (2023-06-08:18:58:40) : Prose books are the show dogs I breed and sell to support my cat. — Graves
+TODO<440> : [c1], (2023-06-08:18:58:40) : Most people are unenthusiastic about their work.
+TODO<441> : [c3], (2023-06-08:18:58:49) : Knowledge need never be justified by utility.
+TODO<442> : [c2], (2023-06-08:18:58:51) : When the going gets weird, the weird turn pro. — Hunter Thompson
+TODO<443> : [c1], (2023-06-08:18:58:51) : Women speak in estrogen but men listen in testosterone.
+TODO<444> : [c2], (2023-06-08:18:59:15) : I really had to act; 'cause I didn't have any lines. — Marilyn Chambers
+TODO<444> : [c1], (2023-06-08:18:59:15) : This fellow Charles Lindbergh will never make it. He's doomed. — Guggenheim
+TODO<445> : [c2], (2023-06-08:18:59:16) : Consensus is no substitute for leadership; it is the result of leadership.
+TODO<445> : [c1], (2023-06-08:18:59:16) : Rich: You have enough money that your money works for you, and not vice-versa.
+TODO<446> : [c2], (2023-06-08:18:59:16) : Act old later. — Lily Tomlin
+TODO<446> : [c1], (2023-06-08:18:59:16) : Hurt people hurt people. — Will Bowen
+TODO<447> : [c3], (2023-06-08:18:59:16) : If a camel flies, no one laughs if it doesn't get very far. — Paul White
+TODO<448> : [c1], (2023-06-08:18:59:16) : To YOU I am an atheist; to God, I'm the Loyal Opposition. — Woody Allen
+TODO<448> : [c2], (2023-06-08:18:59:16) : One can always be kind to people about whom one cares nothing. — Oscar Wilde
+TODO<449> : [c3], (2023-06-08:18:59:16) : All pain other than physical arises from failed expectations.
+TODO<450> : [c1], (2023-06-08:18:59:16) : Spending less money creates more time. — Jeff Yeager
+TODO<450> : [c2], (2023-06-08:18:59:16) : Heinz Catsup leaving the bottle travels at 25 miles per year.
+TODO<451> : [c3], (2023-06-08:18:59:16) : If you take care of the future, you take care of yourself. — Oren Lyons
+TODO<452> : [c3], (2023-06-08:18:59:17) : Never wrestle a pig. You both get dirty and the pig likes it.
+TODO<453> : [c3], (2023-06-08:18:59:17) : It is not possible to step in the same river twice. — Heraclitus
+TODO<454> : [c2], (2023-06-08:18:59:27) : A little experience often upsets a lot of theory.
+TODO<455> : [c3], (2023-06-08:18:59:27) : Be nice to people on your way up; you'll meet them on your way down. — Mizner
+TODO<456> : [c1], (2023-06-08:18:59:37) : Disconfect: Blowing on a piece of candy retrieved from the floor.
+TODO<457> : [c1], (2023-06-08:18:59:47) : Civilization is limitless multiplication of unnecessary necessities. — Twain
+TODO<458> : [c2], (2023-06-08:18:59:58) : Speak softly and carry a cellular phone.
+TODO<459> : [c3], (2023-06-08:18:59:58) : Teenagers never consider that someday they'll know as little as their parents.
+TODO<460> : [c3], (2023-06-08:19:00:09) : Mud thrown is ground lost.
+TODO<461> : [c1], (2023-06-08:19:00:18) : Faith means making a virtue out of not thinking. — Bill Maher
+TODO<461> : [c2], (2023-06-08:19:00:18) : There are no menial jobs, only menial attitudes. — William Bennett
+TODO<462> : [c2], (2023-06-08:19:00:29) : It ain't loafing unless they can prove it. — Dick Brown
+TODO<463> : [c3], (2023-06-08:19:00:39) : He lives long that lives well.
+TODO<464> : [c1], (2023-06-08:19:00:49) : I don't date outside my species.
+TODO<465> : [c3], (2023-06-08:19:00:50) : If you cannot convince them, confuse them. — Harry S Truman
+TODO<466> : [c1], (2023-06-08:19:00:59) : The best places of all, I have never mentioned. — Edward Abbey
+TODO<467> : [c2], (2023-06-08:19:00:59) : It is better to be an ancestor than a descendant.
+TODO<468> : [c2], (2023-06-08:19:01:20) : Not everyone whose eyes are closed is asleep. — Hebrew proverb
+TODO<469> : [c3], (2023-06-08:19:01:21) : People who can most afford to pay rent build equity.
+TODO<470> : [c1], (2023-06-08:19:01:30) : Knowledge without practice makes but half an artist.
+TODO<471> : [c2], (2023-06-08:19:01:30) : Love comes by looking.
+TODO<472> : [c1], (2023-06-08:19:01:41) : A donkey raised among horses is still a donkey.
+TODO<473> : [c2], (2023-06-08:19:01:51) : No opinion has ever been too errant to become creed. — Bertrand Russell
+TODO<474> : [c3], (2023-06-08:19:01:51) : I am not part of the problem. I am a Republican. — Dan Quayle
+TODO<475> : [c2], (2023-06-08:19:02:01) : Forgiveness is the attribute of the strong. — Mohandas Gandhi
+TODO<476> : [c3], (2023-06-08:19:02:02) : Endurance is not toleration.
+TODO<477> : [c1], (2023-06-08:19:02:12) : Extreme fear can neither fight nor fly.
+TODO<478> : [c3], (2023-06-08:19:02:22) : The test of a vocation is the love of the drudgery it involves. — Logan Smith
+TODO<479> : [c2], (2023-06-08:19:02:32) : Stupid people advertise their ignorance. — Solomon
+TODO<480> : [c1], (2023-06-08:19:02:42) : In a time of universal deceit, telling the truth is a revolutionary act. — George Orwell
+TODO<481> : [c1], (2023-06-08:19:02:53) : Never attribute to malice that which is adequately explained by stupidity.
+TODO<482> : [c2], (2023-06-08:19:02:53) : The universe is the projection of your desires. — Ram Dass
+TODO<483> : [c3], (2023-06-08:19:02:53) : What got you here won't get you there. — Marshall Goldsmith
+TODO<484> : [c2], (2023-06-08:19:03:03) : Loneliness is a terrible price to pay for independence.
+TODO<485> : [c3], (2023-06-08:19:03:04) : People are lonely because they build walls instead of bridges. — Joseph Newton
+TODO<486> : [c1], (2023-06-08:19:03:24) : Any idiot can face a crisis; it is this day-to-day living that wears you out.
+TODO<487> : [c2], (2023-06-08:19:03:24) : Life is really generous to those who pursue their destiny. — Paulo Coelho
+TODO<488> : [c3], (2023-06-08:19:03:24) : Time is a flexible and renewable resource.
+TODO<489> : [c1], (2023-06-08:19:03:34) : Romantic stages are mental illness: You're "crazy about someone." — Will Limon
