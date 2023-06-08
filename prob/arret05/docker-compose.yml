@@ -8,7 +8,7 @@ services:
       dockerfile: Dockerfile.clients
     image: a5-client
     depends_on:
-      - s5
+      - s1
     tty: true
 
   # Deuxième client - Ajoute et retire des tâches automatiquement
@@ -16,7 +16,7 @@ services:
     container_name: arret05-c2
     image: a5-client
     depends_on:
-      - s5
+      - s1
     environment:
       - "MONSERVEUR=s10"
     tty: true
@@ -26,7 +26,7 @@ services:
     container_name: arret05-c3
     image: a5-client
     depends_on:
-      - s5
+      - s1
     environment:
       - "MONNOM=c30"
     tty: true
@@ -39,9 +39,9 @@ services:
     image: a5-serveur
     tty: true
     depends_on:
-    - gestionnaire
+      - db
     environment:
-      - "DB_HOST=db_sergtsop"
+      - "DB_HOST=postgres_db"
 
   # Permet d'observer les tâches en cours
   gestionnaire:
@@ -50,6 +50,8 @@ services:
         dockerfile: Dockerfile.gestionnaire
       image: a5-gestionnaire
       tty: true
+      depends_on:
+        - s1
       environment:
         - MONSERVEUR='s1'
         - MONNOM='c1,c2,c3'
@@ -59,11 +61,11 @@ services:
     container_name: arret05-db
     image: postgres:15
     environment:
-      - "POSTGRES_PASSWORD=sergtsop"
-      - "POSTGRES_USER=sergtsop"
-      - "POSTGRES_DB=sergtsop"
+      - "POSTGRES_PASSWORD=postgres"
+      - "POSTGRES_USER=postgres"
+      - "POSTGRES_DB=postgres"
     volumes:
-      - toodo-db:/var/lib/postgresql/datum
+      - todo-db:/var/lib/postgresql/datum
       - ./init_db/sql:/mauvais-docker-entrypoint-initdb.d/
 
 volumes:
