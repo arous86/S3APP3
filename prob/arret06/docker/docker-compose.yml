@@ -7,7 +7,7 @@ services:
     build: 
       context: .
       dockerfile: Dockerfile.client
-    container_name: arret05-c1
+    container_name: a6-client
     image: arret05-client
     depends_on:
       - s1
@@ -18,37 +18,6 @@ services:
       - MONSERVEUR='s1'
       - MONNOM='c1'
 
-  # Deuxième client - Ajoute et retire des tâches automatiquement
-  c2:
-    build: 
-      context: .
-      dockerfile: Dockerfile.client
-    container_name: arret05-c2
-    image: arret05-client
-    depends_on:
-      - s1
-    tty: true
-    networks:
-      - arret05-todo-net
-    environment:
-      - MONSERVEUR='s1'
-      - MONNOM='c2'
-
-  # Troisième client - Ajoute et retire des tâches automatiquement
-  c3:
-    build: 
-      context: .
-      dockerfile: Dockerfile.client
-    container_name: arret05-c3
-    image: arret05-client
-    depends_on:
-      - s1
-    tty: true
-    networks:
-      - arret05-todo-net
-    environment:
-      - MONNOM='c3'
-      - MONSERVEUR='s1'
 
   # Premier serveur - Traite les demandes todo
   s1:

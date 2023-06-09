@@ -1,9 +1,9 @@
-TODO<1185> : [c2], (2023-06-08:20:29:36) : Persons who disagree with you are always emotional and employ faulty reasoning.
-TODO<1186> : [c3], (2023-06-08:20:29:47) : A page of history is worth a volume of logic.
-TODO<1187> : [c2], (2023-06-08:20:29:47) : Programming Department: Mistakes made while you wait.
-TODO<1188> : [c1], (2023-06-08:20:30:07) : It is better to beg than to steal.
-TODO<1189> : [c2], (2023-06-08:20:30:07) : An idealist is a person who helps other people to be prosperous. — Henry Ford
-TODO<1190> : [c3], (2023-06-08:20:30:17) : Patience is the companion of wisdom. — St. Augustine
-TODO<1191> : [c1], (2023-06-08:20:30:17) : Ice cream cures all ills. Temporarily. — Seleznick
-TODO<1192> : [c3], (2023-06-08:20:30:28) : It is not the end of the world, but you can see it from there.
-TODO<1193> : [c2], (2023-06-08:20:30:28) : Impurity means thoughts which define oneself as separate. — Ram Dass
+TODO<1246> : [c2], (2023-06-08:20:37:10) : Stop one from digging his grave and he will hit you over the head with a shovel.
+TODO<1247> : [c3], (2023-06-08:20:37:20) : She runs the gamut of emotions from A to B. — Dorothy Parker
+TODO<1248> : [c1], (2023-06-08:20:37:20) : We are each our own devil, and we make this world our hell. — Oscar Wilde
+TODO<1249> : [c3], (2023-06-08:20:37:30) : It is now pitch dark. If you proceed, you will likely fall into a pit.
+TODO<1250> : [c2], (2023-06-08:20:37:30) : People don't care how much you know until they know how much you care.
+TODO<1251> : [c1], (2023-06-08:20:37:41) : Any program that runs right is obsolete.
+TODO<1252> : [c1], (2023-06-08:20:37:51) : Don't limit your challenges; challenge your limits. — Jerry Dunn
+TODO<1253> : [c3], (2023-06-08:20:38:01) : A penny saved is an economic breakthrough.
+TODO<1254> : [c2], (2023-06-08:20:38:01) : If a book about failures doesn't sell, is it a success?
