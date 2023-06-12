@@ -63,7 +63,7 @@ services:
     networks:
       - arret05-todo-net
     environment:
-      - "DB_HOST=db_postgres"
+      - "DB_HOST=db"
 
 
   # Permet d'observer les tâches en cours

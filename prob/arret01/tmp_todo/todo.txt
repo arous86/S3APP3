@@ -1,3 +1,1 @@
-TODO<16> : Usager : [Stephen Hawking], (2023-06-06:17:38:59) Task: Recent studies prove I don't have to be reasonable.
-TODO<17> : Usager : [Paul McCartney], (2023-06-06:17:39:00) Task: Nondeterminism means never having to say you are wrong.
-TODO<18> : Usager : [Stephen King], (2023-06-06:17:39:00) Task: Contraceptives should be used on every conceivable occasion.
+TODO<25> : Usager : [Usain Bolt], (2023-06-10:22:13:06) Task: Question Authority... And the Authorities will question you!

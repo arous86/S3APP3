@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
-  name: a6-client
+  name: a5-client
   labels:
     app: todo
 spec:
@@ -15,10 +15,10 @@ spec:
         app: todo
     spec:
       containers:
-        - name: c1
-          image: a6-client
+        - name: a5-client
+          image: a5-client:latest
           tty: true
-          imagePullPolicy: Never 
+          imagePullPolicy: Always
           env:
           - name: MONSERVEUR
             value: 's1' # Must match the service name in the server yaml

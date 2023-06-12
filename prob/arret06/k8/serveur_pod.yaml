@@ -4,7 +4,7 @@ metadata:
   name: s1
 spec:
   selector:
-    name: a6-serveur
+    name: a5-serveur
   ports:
   - name: ssh-port
     protocol: TCP
@@ -15,7 +15,7 @@ spec:
 apiVersion: apps/v1
 kind: StatefulSet
 metadata:
-  name: a6-serveur
+  name: a5-serveur
   labels:
     app: todo
 spec:
@@ -27,12 +27,12 @@ spec:
     metadata:
       labels:
         app: todo
-        name: a6-serveur
+        name: a5-serveur
     spec:
       containers:
         - name: s1
-          image: a6-serveur
-          imagePullPolicy: Never
+          image: a5-serveur
+          imagePullPolicy: Always
           tty: true
           ports:
             - name: ssh-connect
